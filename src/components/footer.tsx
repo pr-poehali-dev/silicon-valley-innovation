@@ -7,9 +7,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Nutri<span className="text-red-500">Plan</span>
-            </h2>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="https://cdn.poehali.dev/projects/7f5f5709-0326-4f09-bfc5-15f68845e7c9/files/f498988b-83c2-4c6e-b6a5-e653cde80486.jpg"
+                alt="iPovar logo"
+                className="w-10 h-10 rounded-md object-cover"
+              />
+              <h2 className="font-orbitron text-2xl font-bold text-white">
+                i<span className="text-red-500">Povar</span>
+              </h2>
+            </div>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Готовая система питания для людей, которые следят за своим здоровьем и хотят реальных результатов.
             </p>
@@ -86,7 +93,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-red-500/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="font-space-mono text-gray-400 text-sm">© 2025 NutriPlan. Все права защищены.</p>
+            <p className="font-space-mono text-gray-400 text-sm">© 2025 iPovar. Все права защищены.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a
                 href="#"

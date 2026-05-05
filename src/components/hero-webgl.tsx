@@ -114,7 +114,7 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "NutriPlan Pro".split(" ")
+  const titleWords = "iPovar".split(" ")
   const subtitle = "Готовая система питания для тех, кто заботится о своём теле."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)

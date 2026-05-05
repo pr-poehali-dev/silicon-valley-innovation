@@ -10,9 +10,14 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center gap-2">
+            <img
+              src="https://cdn.poehali.dev/projects/7f5f5709-0326-4f09-bfc5-15f68845e7c9/files/f498988b-83c2-4c6e-b6a5-e653cde80486.jpg"
+              alt="iPovar logo"
+              className="w-8 h-8 rounded-md object-cover"
+            />
             <h1 className="font-orbitron text-xl font-bold text-white">
-              Nutri<span className="text-red-500">Plan</span>
+              i<span className="text-red-500">Povar</span>
             </h1>
           </div>
 
