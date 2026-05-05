@@ -14,7 +14,7 @@ export function Navbar() {
             <img
               src="https://cdn.poehali.dev/projects/7f5f5709-0326-4f09-bfc5-15f68845e7c9/files/422c06bc-a4de-4fd2-ac66-21b0d8b35546.jpg"
               alt="iPovar logo"
-              className="w-8 h-8 rounded-md object-cover"
+              className="w-10 h-10 rounded-lg object-cover"
             />
             <h1 className="font-orbitron text-xl font-bold text-white">
               i<span className="text-red-500">Povar</span>
