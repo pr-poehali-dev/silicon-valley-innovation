@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
+    title: "Персональный план питания",
+    description: "Система подбирает рацион под ваши цели, параметры тела и образ жизни — без лишних усилий с вашей стороны.",
     icon: "brain",
-    badge: "ИИ",
+    badge: "Персонально",
   },
   {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
+    title: "Только натуральные продукты",
+    description: "Никаких добавок и заменителей — только реальная еда, которую можно купить в ближайшем магазине.",
     icon: "lock",
-    badge: "Сертификат",
+    badge: "Натурально",
   },
   {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
+    title: "Точный баланс КБЖУ",
+    description: "Каждый приём пищи рассчитан по калориям, белкам, жирам и углеводам с точностью до грамма.",
     icon: "globe",
     badge: "Точность",
   },
   {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Умная адаптация",
+    description: "Система отслеживает ваш прогресс и автоматически корректирует рацион для максимального результата.",
     icon: "zap",
     badge: "Умный",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
+    title: "Контроль здоровья",
+    description: "Рекомендации учитывают самочувствие, уровень энергии и физические показатели.",
     icon: "link",
-    badge: "Связь",
+    badge: "Здоровье",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "Готово к старту",
+    description: "Получите полный план на неделю уже через несколько минут после регистрации — без сложных анкет.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "Быстро",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Питание, которое работает</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Система, разработанная для тех, кто хочет реальных результатов — без диет и ограничений
           </p>
         </div>
 
@@ -61,12 +61,12 @@ export function FeaturesSection() {
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
-                    {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
-                    {feature.icon === "target" && "&#127919;"}
+                    {feature.icon === "brain" && "🥗"}
+                    {feature.icon === "lock" && "🥦"}
+                    {feature.icon === "globe" && "⚖️"}
+                    {feature.icon === "zap" && "⚡"}
+                    {feature.icon === "link" && "💪"}
+                    {feature.icon === "target" && "🎯"}
                   </span>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}
