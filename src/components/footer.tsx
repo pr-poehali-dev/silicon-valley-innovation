@@ -9,7 +9,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="https://cdn.poehali.dev/projects/7f5f5709-0326-4f09-bfc5-15f68845e7c9/files/f498988b-83c2-4c6e-b6a5-e653cde80486.jpg"
+                src="https://cdn.poehali.dev/projects/7f5f5709-0326-4f09-bfc5-15f68845e7c9/files/422c06bc-a4de-4fd2-ac66-21b0d8b35546.jpg"
                 alt="iPovar logo"
                 className="w-10 h-10 rounded-md object-cover"
               />
