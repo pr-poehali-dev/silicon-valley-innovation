@@ -173,6 +173,17 @@ export const Hero3DWebGL = () => {
             {subtitle}
           </div>
         </div>
+        <div
+          className={subtitleVisible ? "fade-in-subtitle mt-8 pointer-events-auto" : "mt-8 pointer-events-auto"}
+          style={{
+            animationDelay: `${titleWords.length * 0.13 + 0.6 + subtitleDelay}s`,
+            opacity: subtitleVisible ? undefined : 0,
+          }}
+        >
+          <button className="bg-red-500 hover:bg-red-600 transition-colors duration-200 text-white font-orbitron font-bold text-sm md:text-lg px-8 py-4 rounded-lg uppercase tracking-widest pulse-button">
+            Попробовать бесплатно
+          </button>
+        </div>
       </div>
 
       <Canvas
